@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4678E96263B4DD000E714A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4678E95263B4DD000E714A8 /* AppDelegate.swift */; };
+		B4678E98263B4DD000E714A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4678E97263B4DD000E714A8 /* SceneDelegate.swift */; };
+		B4678E9A263B4DD000E714A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4678E99263B4DD000E714A8 /* ViewController.swift */; };
+		B4678E9D263B4DD000E714A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4678E9B263B4DD000E714A8 /* Main.storyboard */; };
+		B4678E9F263B4DD700E714A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4678E9E263B4DD700E714A8 /* Assets.xcassets */; };
+		B4678EA2263B4DD700E714A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4678EA0263B4DD700E714A8 /* LaunchScreen.storyboard */; };
+		B4678EAD263B4DD700E714A8 /* ZennexNSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4678EAC263B4DD700E714A8 /* ZennexNSTests.swift */; };
+		B4678EB8263B4DD700E714A8 /* ZennexNSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4678EB7263B4DD700E714A8 /* ZennexNSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4678EA9263B4DD700E714A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4678E8A263B4DD000E714A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4678E91263B4DD000E714A8;
+			remoteInfo = ZennexNS;
+		};
+		B4678EB4263B4DD700E714A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4678E8A263B4DD000E714A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4678E91263B4DD000E714A8;
+			remoteInfo = ZennexNS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4678E92263B4DD000E714A8 /* ZennexNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZennexNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4678E95263B4DD000E714A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4678E97263B4DD000E714A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B4678E99263B4DD000E714A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4678E9C263B4DD000E714A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4678E9E263B4DD700E714A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4678EA1263B4DD700E714A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4678EA3263B4DD700E714A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4678EA8263B4DD700E714A8 /* ZennexNSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZennexNSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4678EAC263B4DD700E714A8 /* ZennexNSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZennexNSTests.swift; sourceTree = "<group>"; };
+		B4678EAE263B4DD700E714A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4678EB3263B4DD700E714A8 /* ZennexNSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZennexNSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4678EB7263B4DD700E714A8 /* ZennexNSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZennexNSUITests.swift; sourceTree = "<group>"; };
+		B4678EB9263B4DD800E714A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4678E8F263B4DD000E714A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4678EA5263B4DD700E714A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4678EB0263B4DD700E714A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4678E89263B4DD000E714A8 = {
+			isa = PBXGroup;
+			children = (
+				B4678E94263B4DD000E714A8 /* ZennexNS */,
+				B4678EAB263B4DD700E714A8 /* ZennexNSTests */,
+				B4678EB6263B4DD700E714A8 /* ZennexNSUITests */,
+				B4678E93263B4DD000E714A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4678E93263B4DD000E714A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4678E92263B4DD000E714A8 /* ZennexNS.app */,
+				B4678EA8263B4DD700E714A8 /* ZennexNSTests.xctest */,
+				B4678EB3263B4DD700E714A8 /* ZennexNSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4678E94263B4DD000E714A8 /* ZennexNS */ = {
+			isa = PBXGroup;
+			children = (
+				B4678E95263B4DD000E714A8 /* AppDelegate.swift */,
+				B4678E97263B4DD000E714A8 /* SceneDelegate.swift */,
+				B4678E99263B4DD000E714A8 /* ViewController.swift */,
+				B4678E9B263B4DD000E714A8 /* Main.storyboard */,
+				B4678E9E263B4DD700E714A8 /* Assets.xcassets */,
+				B4678EA0263B4DD700E714A8 /* LaunchScreen.storyboard */,
+				B4678EA3263B4DD700E714A8 /* Info.plist */,
+			);
+			path = ZennexNS;
+			sourceTree = "<group>";
+		};
+		B4678EAB263B4DD700E714A8 /* ZennexNSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4678EAC263B4DD700E714A8 /* ZennexNSTests.swift */,
+				B4678EAE263B4DD700E714A8 /* Info.plist */,
+			);
+			path = ZennexNSTests;
+			sourceTree = "<group>";
+		};
+		B4678EB6263B4DD700E714A8 /* ZennexNSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4678EB7263B4DD700E714A8 /* ZennexNSUITests.swift */,
+				B4678EB9263B4DD800E714A8 /* Info.plist */,
+			);
+			path = ZennexNSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4678E91263B4DD000E714A8 /* ZennexNS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4678EBC263B4DD800E714A8 /* Build configuration list for PBXNativeTarget "ZennexNS" */;
+			buildPhases = (
+				B4678E8E263B4DD000E714A8 /* Sources */,
+				B4678E8F263B4DD000E714A8 /* Frameworks */,
+				B4678E90263B4DD000E714A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZennexNS;
+			productName = ZennexNS;
+			productReference = B4678E92263B4DD000E714A8 /* ZennexNS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4678EA7263B4DD700E714A8 /* ZennexNSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4678EBF263B4DD800E714A8 /* Build configuration list for PBXNativeTarget "ZennexNSTests" */;
+			buildPhases = (
+				B4678EA4263B4DD700E714A8 /* Sources */,
+				B4678EA5263B4DD700E714A8 /* Frameworks */,
+				B4678EA6263B4DD700E714A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4678EAA263B4DD700E714A8 /* PBXTargetDependency */,
+			);
+			name = ZennexNSTests;
+			productName = ZennexNSTests;
+			productReference = B4678EA8263B4DD700E714A8 /* ZennexNSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4678EB2263B4DD700E714A8 /* ZennexNSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4678EC2263B4DD800E714A8 /* Build configuration list for PBXNativeTarget "ZennexNSUITests" */;
+			buildPhases = (
+				B4678EAF263B4DD700E714A8 /* Sources */,
+				B4678EB0263B4DD700E714A8 /* Frameworks */,
+				B4678EB1263B4DD700E714A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4678EB5263B4DD700E714A8 /* PBXTargetDependency */,
+			);
+			name = ZennexNSUITests;
+			productName = ZennexNSUITests;
+			productReference = B4678EB3263B4DD700E714A8 /* ZennexNSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4678E8A263B4DD000E714A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B4678E91263B4DD000E714A8 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					B4678EA7263B4DD700E714A8 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B4678E91263B4DD000E714A8;
+					};
+					B4678EB2263B4DD700E714A8 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B4678E91263B4DD000E714A8;
+					};
+				};
+			};
+			buildConfigurationList = B4678E8D263B4DD000E714A8 /* Build configuration list for PBXProject "ZennexNS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4678E89263B4DD000E714A8;
+			productRefGroup = B4678E93263B4DD000E714A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4678E91263B4DD000E714A8 /* ZennexNS */,
+				B4678EA7263B4DD700E714A8 /* ZennexNSTests */,
+				B4678EB2263B4DD700E714A8 /* ZennexNSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4678E90263B4DD000E714A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4678EA2263B4DD700E714A8 /* LaunchScreen.storyboard in Resources */,
+				B4678E9F263B4DD700E714A8 /* Assets.xcassets in Resources */,
+				B4678E9D263B4DD000E714A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4678EA6263B4DD700E714A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4678EB1263B4DD700E714A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4678E8E263B4DD000E714A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4678E9A263B4DD000E714A8 /* ViewController.swift in Sources */,
+				B4678E96263B4DD000E714A8 /* AppDelegate.swift in Sources */,
+				B4678E98263B4DD000E714A8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4678EA4263B4DD700E714A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4678EAD263B4DD700E714A8 /* ZennexNSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4678EAF263B4DD700E714A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4678EB8263B4DD700E714A8 /* ZennexNSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4678EAA263B4DD700E714A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4678E91263B4DD000E714A8 /* ZennexNS */;
+			targetProxy = B4678EA9263B4DD700E714A8 /* PBXContainerItemProxy */;
+		};
+		B4678EB5263B4DD700E714A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4678E91263B4DD000E714A8 /* ZennexNS */;
+			targetProxy = B4678EB4263B4DD700E714A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4678E9B263B4DD000E714A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4678E9C263B4DD000E714A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4678EA0263B4DD700E714A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4678EA1263B4DD700E714A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4678EBA263B4DD800E714A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4678EBB263B4DD800E714A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4678EBD263B4DD800E714A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ5CPZCXJA;
+				INFOPLIST_FILE = ZennexNS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NikitaShvadlenko.ZennexNS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4678EBE263B4DD800E714A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ5CPZCXJA;
+				INFOPLIST_FILE = ZennexNS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NikitaShvadlenko.ZennexNS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4678EC0263B4DD800E714A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ5CPZCXJA;
+				INFOPLIST_FILE = ZennexNSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NikitaShvadlenko.ZennexNSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZennexNS.app/ZennexNS";
+			};
+			name = Debug;
+		};
+		B4678EC1263B4DD800E714A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ5CPZCXJA;
+				INFOPLIST_FILE = ZennexNSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NikitaShvadlenko.ZennexNSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZennexNS.app/ZennexNS";
+			};
+			name = Release;
+		};
+		B4678EC3263B4DD800E714A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ5CPZCXJA;
+				INFOPLIST_FILE = ZennexNSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NikitaShvadlenko.ZennexNSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZennexNS;
+			};
+			name = Debug;
+		};
+		B4678EC4263B4DD800E714A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ5CPZCXJA;
+				INFOPLIST_FILE = ZennexNSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NikitaShvadlenko.ZennexNSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZennexNS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4678E8D263B4DD000E714A8 /* Build configuration list for PBXProject "ZennexNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4678EBA263B4DD800E714A8 /* Debug */,
+				B4678EBB263B4DD800E714A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4678EBC263B4DD800E714A8 /* Build configuration list for PBXNativeTarget "ZennexNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4678EBD263B4DD800E714A8 /* Debug */,
+				B4678EBE263B4DD800E714A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4678EBF263B4DD800E714A8 /* Build configuration list for PBXNativeTarget "ZennexNSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4678EC0263B4DD800E714A8 /* Debug */,
+				B4678EC1263B4DD800E714A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4678EC2263B4DD800E714A8 /* Build configuration list for PBXNativeTarget "ZennexNSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4678EC3263B4DD800E714A8 /* Debug */,
+				B4678EC4263B4DD800E714A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4678E8A263B4DD000E714A8 /* Project object */;
+}
